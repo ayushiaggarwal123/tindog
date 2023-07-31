@@ -1,0 +1,200 @@
+
+/*----------title bar-------------------------*/
+#title{
+    background-color: #ff4c68;
+   
+   
+}
+
+h1{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 3.5rem;
+    line-height: 1.5;
+    color: white;
+}
+
+.row{
+    --bs-gutter-x: 0rem;
+  
+}
+
+.container-fluid{
+    padding: 3% 15%;
+}
+
+
+/*----navbar ------*/
+
+.navbar{
+    padding-bottom: 4.5rem;
+}
+
+.navbar-brand{
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+.nav-item{
+    padding: 0px 15px;
+}
+
+.nav-link{
+    font-size: 1.2rem;
+}
+
+.download-button{
+ 
+    margin: 10% 5% 5% 0%;
+}
+
+.iphone{
+    transform: rotate(25deg);
+   width: 60%;
+
+ 
+
+}
+
+
+
+
+/*------------------------------feature bar-----------------------*/
+#features{
+    align-content: center;
+    text-align: center;
+    padding: 7% 10%;
+    position: relative;
+    bottom: 200px;
+    background-color: white;
+}
+
+.feature-box{
+    padding: 5%;
+}
+
+.icons{
+    height: 50px;
+    width: 50px;
+    color: #ef8172;
+}
+
+.icons:hover{
+    color: #ff4c68;
+}
+
+.info{
+    color: #8f8f8f;
+    margin: 0px 25px;
+}
+
+.h3{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+}
+
+
+/*------------testimonials-------------------------*/
+
+#testimonials{
+    background-color: #ff4c68;
+    align-content: center;
+    text-align: center;
+    color: white;
+    position: relative;
+    bottom: 200px;
+}
+
+.carousel-item{
+    padding: 8% 15% 8%;
+}
+
+.testimonial-images{
+    width: 10%;
+    margin: 20px;
+    border-radius: 100%;
+}
+
+h2{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 3rem;
+}
+
+#press{
+    background-color: #ff4c68;
+    text-align: center;
+    position: relative;
+    bottom: 200px;
+}
+
+.name{
+    width: 15%;
+    margin: 20px 20px 50px;
+}
+
+/*--------------pricing-----------------------*/
+
+#pricing{
+    background-color: white;
+  
+   text-align: center;
+   padding: 5% 10% 7%;
+   color: #ef8172;
+   position: relative;
+   bottom: 200px;
+}
+.card-header,.card-footer{
+    background-color: #ef8172;
+}
+.btn-color{
+    background-color: #ef8172;
+    padding: 3% 15%;
+}
+.btn-color:hover{
+    background-color: #ff4c68;
+}
+
+/*---------------------call to action--------------*/
+#cta{
+    background-color: #ff4c68;
+    padding: 5% 15%;
+    text-align: center;
+    position: relative;
+    
+    bottom: 200px;
+}
+
+.cta-info{
+    font-size: 3rem;
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+}
+
+/*------------------------footer--------------------------*/
+
+#footer{
+    background-color: white;
+   padding: 4% 10%;
+    text-align: center;
+    position: relative;
+    bottom: 100px;
+
+}
+.footer-icons{
+    margin: 4px 8px 15px;
+}
+
+/*------------media--------------------------*/
+
+
+@media (max-width: 1000px) {
+    .iphone{
+        transform: rotate(0);
+   
+    }
+    #title{
+        text-align: center; 
+    }
+
+
+}
+
